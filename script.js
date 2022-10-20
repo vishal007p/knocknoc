@@ -1,4 +1,4 @@
-const carouselText = [
+  const carouselText = [
     {text: "Apple", color: ""},
     {text: "Orange", color: "orange"},
     {text: "Lemon", color: "yellow"}

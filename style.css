@@ -47,7 +47,11 @@ html {
   font-weight: 800;
 }
 
-
+.navbar {
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+}
 
 .navbar .navbar-brand .knoc {
   width: 11rem;
@@ -182,6 +186,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("Banner\ 23.png");
+  overflow-x: hidden;
 
 }
 
@@ -223,7 +228,9 @@ html {
 /*-------------card------------  */
 
 
-
+.card-div{
+  overflow-x: hidden;
+}
 .sec-icon::before {
   content: "";
   height: 1px;
@@ -363,6 +370,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 .app-one p {
@@ -370,10 +378,10 @@ html {
   padding: 10px 100px 10px 100px;
 }
 
-.mobile_app {
+.mobile_app{
   width: 100%;
-
-  padding: 50px 0px 50px 0px;
+ overflow-x: hidden;
+  padding: 50px 0px 60px 0px;
   display: flex;
   justify-content: space-around;
 }
@@ -749,8 +757,8 @@ html {
 
 .testimonial .carousel-control-next-icon,
 .testimonial .carousel-control-prev-icon {
-  width: 35px;
-  height: 35px;
+  width: 2.188rem;
+  height: 2.188rem;
 }
 
  
@@ -760,7 +768,9 @@ html {
   
 }
 
-
+ .trs .trs_div_a .tres-1 .mx-auto{
+  max-width: 18rem;
+ }
 
 /* ------footer--------- */
 
@@ -773,8 +783,27 @@ background-color: #2BB2BD;
   margin: auto;
 }
 
+.snwball{
+  width: 100%;
+  height: 37.5rem;
+  padding-bottom: 1.875rem;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  
+}
+.snwball img{
+  width: 90%;
+  height: 100%;
+}
+
+
+
+
 
 /* -------media--- */
+
+
 
 
 @media only screen and (max-width: 1320px) {
@@ -789,21 +818,24 @@ background-color: #2BB2BD;
     height: auto;
   }
   .mobile_app .app-one img{
-    width: 300px;
-    height: 500px;
+    width: 18.75rem;
+    height: 31.25rem;
   }
  }
 
 @media only screen and (max-width: 1060px){
 
   .mobile_app .app-one img{
-     width: 150px;
-     height: 150px;
+     width: 200px;
+     height: 400px;
    }
    
  .app-one p {
   
    padding:0px 0px 0px 0px;
+ }
+ .trs .trs_div_a .tres-1 .mx-auto{
+  max-width: 18rem;
  }
  }
  
@@ -812,29 +844,43 @@ background-color: #2BB2BD;
  
 @media only screen and (max-width: 900px){
   .mobile_app .app-one img{
-    width: 350px;
-    height: 150px;
-  }
-
-}
-@media only screen and (width: 700px){
-  .mobile_app .app-one img{
-    width: 300px;
+    width: 200px;
     height: 400px;
   }
+  .snwball img{
+    width: 100%;
+    height:300px;
+   
+  }
+ 
+}
+@media only screen and (max-width: 700px){
+  .mobile_app .app-one img{
+    width: 200px;
+    height: 400px;
+  }
+  .mobile_app .app-one p{
+    font-size: 14px;
+  }
+  .snwball img{
+    width: 100%;
+    height:200px;
+   
+  }
+  .trs_div_a {
+    display: inline;
+   
+}
+.mobile_app{
+  display: inline;
+}
+  
 
 }
 
 @media only screen and (max-width: 600px) {
-  .snwball{
-    display: inline;
-  }
-  .trs_div_a {
-    display: inline;
-  }
-  .mobile_app{
-    display: inline;
-  }
+ 
+  
   .mobile_app .app-one img{
     width: 250px;
     height: 450px;

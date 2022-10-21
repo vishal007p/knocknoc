@@ -60,8 +60,8 @@ options = {
 	"hoverEffect": "circle-move",
 	"hoverItemMove": false,
 	"defaultCursor": false,
-	"outerWidth": 40,
-	"outerHeight": 40
+	"outerWidth": 50,
+	"outerHeight": 50
       };
     magicMouse(options);
 

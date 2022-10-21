@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anek+Latin:wght@200&family=Bebas+Neue&family=Cormorant+Garamond:wght@300&family=Inter&family=Lato:ital,wght@0,700;1,100;1,300&family=Poppins:wght@500&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  
+  font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+  font-size: 80.1%;
+}
+
+.navbar .nav-item {
+
+  padding: 0px;
+}
+
+.text-white .fa-paw{
+  color: white;
+}
+.list-unstyled .fa-map-marker-alt {
+  color: white;
+}
+.list-unstyled .fa-phone{
+  color: white;
+}
+.list-unstyled  .fa-envelope{
+  color:white;
+} 
+body {
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+   
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(0.5rem);
+  box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.1);
+  background: #bab5b500 !important;
+  height: auto;
+
+}
+ 
+
+html {
+  font-size: 95%;
+  font-weight: 800;
+}
+
+.navbar {
+ 
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .navbar-brand .knoc {
+  width: 11rem;
+  height: auto;
+
+}
+
+.navbar .nav-item {
+  padding: 0.625rem 0.625rem;
+  z-index: 9999;
+}
+
+.navbar .nav-link {
+  font-size: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+.fas {
+  color: black;
+}
+
+.fa-bars {
+
+  font-size: 1.875rem;
+  color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  z-index: 999;
+}
+
+.container{
+  width: 100%;
+}
+.btn {
+  font-weight: 900;
+  color: white !important;
+}
+
+.dropdown>.dropdown-toggle:active {
+
+  pointer-events: none;
+}
+
+.koc_cat {
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 999;
+}
+
+.w-100 {
+  height: 50rem;
+}
+
+
+
+
+.navbar-expand-lg .navbar-nav {
+  display: flex;
+  width: 1000%;
+}
+
+html {
+  font-size: 95%;
+  font-weight: 800;
+}
+
+
+
+.navbar .navbar-brand .knoc {
+  width: 11rem;
+  height: auto;
+
+}
+
+.navbar .nav-item {
+  padding: 0.625rem 0.625rem;
+  z-index: 9999;
+}
+
+.navbar .nav-link {
+  font-size: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+.fas {
+  color: black;
+}
+
+.fa-bars {
+
+  font-size: 1.875rem;
+  color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  z-index: 999;
+}
+
+
+.btn {
+  font-weight: 900;
+  color: #3B403F;
+}
+
+.dropdown>.dropdown-toggle:active {
+
+  pointer-events: none;
+}
+
+.koc_cat {
+  width: 2.5rem;
+  height: 2.5;
+}
+
+/*-----------footer-------------  */
+
+
+
+.bg-orange{
+  background-color: #2BB2BD;
+   
+  }
+  .carousel{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .snwball{
+    width: 100%;
+    height: 37.5rem;
+    padding-bottom: 1.875rem;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    
+  }
+  .snwball img{
+    width: 90%;
+    height: 100%;
+  }
+  
+  /* ------cur------ */
+
+  
+
+  @media only screen and (max-width: 1320px) {
+
+    .navbar .nav-item {
+      padding: 0px;
+    }
+  }
+  @media only screen and (max-width:1200px) {
+    .navbar .navbar-brand .knoc {
+      width: 7rem;
+      height: auto;
+    }
+     
+   }
+  
+    
+  @media only screen and (max-width: 1095px){
+  .navbar .collapse .navbar-nav .nav-item .dropdown .btn{
+    font-size: 13px;
+  }
+  }
+  
+   @media only screen and (max-width: 991px) {
+    .navbar{
+      overflow-x: hidden;
+    }
+
+   }
+ 
+ 
+  
+  
+  @media only screen and (max-width: 600px) {
+   
+     
+  
+    .navbar .navbar-brand .knoc {
+      width: 10rem;
+      height: auto;
+    }
+  
+  
+    .navbar .navbar-brand .knoc {
+      width: 10rem;
+      height: auto;
+    }
+  }
+  
+  
+  

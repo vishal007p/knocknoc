@@ -103,6 +103,10 @@ html {
 
   pointer-events: none;
 }
+.dropdown .btn a{
+  color: white;
+  text-decoration: none;
+}
 
 .koc_cat {
   width: 2.5rem;

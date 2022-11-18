@@ -29,7 +29,7 @@
       $(eleRef).html(letters.join(""));
     }
   }
-  
+ 
   async function carousel(carouselList, eleRef) {
       var i = 0;
       while(true) {
